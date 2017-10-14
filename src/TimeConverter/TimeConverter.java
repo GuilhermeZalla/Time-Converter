@@ -6,8 +6,7 @@ package TimeConverter;
        
        Scanner input = new Scanner(System.in);
     
-         int value;
-         int hour, minute, second;
+         int value, hour, minute, second;
         
             System.out.print("Enter the amount of seconds: ");
             value = input.nextInt();
@@ -17,7 +16,7 @@ package TimeConverter;
                minute = value/60;
                second = value - ( minute * 60);
          
-            System.out.print("\n"+hour+":"+minute+":"+second);
+            System.out.print(hour+":"+minute+":"+second+"\n");
   }
      
      public static void main(String[] args){
