@@ -21,9 +21,9 @@ package TimeConverter;
      
      public static void main(String[] args){
          
-          System.out.println(" ----------------------- \n"
-                            +"|    Time Converter     |\n"
-                            +" ----------------------- \n");        
+          System.out.print(" ----------------------- \n"
+                           +"|    Time Converter     |\n"
+                           +" ----------------------- \n");        
                                        Time();
    }        
   }       
